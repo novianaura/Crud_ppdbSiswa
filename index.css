@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;700;900&display=swap');
+
+    *{
+    background-color: #B0D9B1;
+    font-family: 'DM+Serif', poppins;
+    margin: 5px;
+    padding: 0;
+    }
+
+    h1{
+        text-align: center;
+        color: #445D48;
+    }
+
+    a[href="input.php"] {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #618264;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-bottom: 2%;
+        margin-left: 60px; /* untuk menggeser tambah data*/
+        
+    }
+    table {
+    width: 90%; /* atur kotak form*/
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+    border-collapse: collapse;
+    }
+
+    th, td { /* untuk tabelnya*/
+      border: 1px solid #AEC3AE;
+      padding: 18px;
+      text-align: center;
+      background-color: #D0E7D2;
+      border-radius: 2px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    td a {
+    width: 70%;
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #618264;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
